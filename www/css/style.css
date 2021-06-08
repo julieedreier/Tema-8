@@ -1,0 +1,56 @@
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: lightyellow;
+}
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15vw;
+}
+
+	/* illustrasjon øverst */
+.illustrasjon {
+  width: 100%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px; 
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 10;
+	margin-left: 0px;
+  position: relative;
+	background-color: yellow;
+}
+
+	/* Justere strl på bilde */
+	.illustrasjon img {
+		width: 50%;
+		height: auto; 
+	}
+
+.button {
+  height: 0.5em;
+  vertical-align: middle;
+  background-color: lime;
+}
+
+#time {
+  vertical-align: middle;
+  background-color: pink;
+}
+
+#time > span {
+  display: inline-block;
+  width: 0.7em;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: orange;
+}
+
+
