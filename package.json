@@ -1,0 +1,24 @@
+{
+  "name": "electron-tema8-app",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-macOs": "electron-packager . Eggtimer --out=./builds --overwrite --icon=./app_ikon/Eggtimer-Icon.icns"
+  },
+  "repository": "https://github.com/julieedreier",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Julie Dreier",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^13.0.1",
+    "electron-packager": "^15.2.0"
+  }
+}

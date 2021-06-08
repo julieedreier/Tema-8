@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" style="height: 100%; width: 100%">
+  <head>
+      <meta charset="UTF-8">
+
+      <title>EggTimer</title>
+      <link rel="stylesheet" href="css/style.css">
+
+  
+  </head>
+
+<!-- Hovedelementer som vises på siden (grafikk) -->
+  <body onpageshow="onPageShow()" onpagehide="onPageHide()" onkeypress="onKeyPress(event)">
+    <div id="content">
+
+<!-- Illustrasjon -->
+  <div class="illustrasjon">
+    <img src="img/Illustrasjon.png">
+</div>
+
+ <!-- Start, stopp og refresh–ikoner:-->
+           
+      <img id="resetButton" class="button" src="img/reset.svg">
+      <span id="time"><span id="m1">0</span><span id="m0">5</span>:<span id="s1">0</span><span id="s0">0</span></span>
+      <img id="startPauseButton" class="button" src="img/start.svg">
+    </div>
+
+    
+    <!-- Mål som tilpasser innholdet størrelsesmessig på feks mobil -->
+    <div style="width: 0; height: 0; overflow: hidden;">
+      <input id="inputField" type="number">
+    </div>
+
+    <script src="js/offline-manager.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
